@@ -12,7 +12,7 @@ public class DbManager {
 
     public DbManager(){
 
-        ACCOUNTS_CONNECTION = new DbConnection(new DbCredentials(" db4free.net", "antoineuuh", "rosabelle2013", "smartredis", 3306));
+        ACCOUNTS_CONNECTION = new DbConnection(new DbCredentials(" db4free.net", "wrong_username_lol", "wrong_password_lol", "smartredis", 3306));
 
     }
 
