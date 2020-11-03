@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerLogin">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="736.0" prefWidth="414.0" style="-fx-background-color: #F9FAFC;">
+         <children>
+            <Pane prefHeight="74.0" prefWidth="414.0" style="-fx-background-color: #FFFFFF; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);">
+               <children>
+                  <Circle fx:id="CIRCLE" fill="#42cdbe" layoutX="148.0" layoutY="39.0" radius="6.0" stroke="WHITE" strokeType="INSIDE" />
+                  <Text fill="#3b414a" layoutX="162.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: &quot;Aragon Sans&quot;;" text="SMART REDIS">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#c3cedb" layoutX="33.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="✖">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="BUTTON" layoutX="27.0" layoutY="25.0" mnemonicParsing="false" onAction="#CLOSE_APPLICATION" opacity="0.0" style="-fx-background-color: #FFFFFF;" text="A">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Text fill="#c3cedb" layoutX="357.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="...">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="353.0" layoutY="24.0" mnemonicParsing="false" opacity="0.0" style="-fx-background-color: #FFFFFF;" text="B">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane layoutY="680.0" prefHeight="56.0" prefWidth="414.0" style="-fx-background-color: #FFFFFF; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);">
+               <children>
+                  <Text fill="#3b414a" layoutX="123.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: &quot;Aragon Sans&quot;;" text="Made with love by Antoine.">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Text fill="#3b414a" layoutX="43.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: &quot;Aragon Sans&quot;;" text="Hey !">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text fill="#3b414a" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: &quot;Aragon Sans&quot;;" text="Smart Redis est une application de messagerie très facile à utiliser basée sur Redis. Smart Redis utilise Jedis comme client Redis. Smart Redis est déstiné à etre rapide et fiable." wrappingWidth="335.2265625">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="USERNAME" alignment="CENTER" layoutX="71.0" layoutY="411.0" prefHeight="56.0" prefWidth="272.0" promptText="Saisir un identifiant . . ." style="-fx-background-color: #3b414a; -fx-background-radius: 0;">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="PASSWORD" alignment="CENTER" layoutX="71.0" layoutY="479.0" prefHeight="56.0" prefWidth="272.0" promptText="Saisir un mot de passe . . ." style="-fx-background-color: #3b414a; -fx-background-radius: 0;">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </TextField>
+            <Button fx:id="BUTTON_LOG" layoutX="71.0" layoutY="566.0" mnemonicParsing="false" onAction="#CONNECT_USER_ACCOUNT" prefHeight="56.0" prefWidth="272.0" style="-fx-background-color: #42cdbe; -fx-background-radius: 0;" text="CONNEXION" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Button>
+            <Text fill="#3b414a" layoutX="43.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: &quot;Aragon Sans&quot;;" text="Vous devez vous connecter avec un identifiant prédéfini pour accéder a l'application." wrappingWidth="335.2265625">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</GridPane>

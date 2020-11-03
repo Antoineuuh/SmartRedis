@@ -1,0 +1,1 @@
+java -jar /out/artifacts/SmartRedis/SmartRedis.jar

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SmartRedis.jnlp">
+  <information>
+    <title>SmartRedis ? Made by @antoinisfrench</title>
+    <vendor>Unknown</vendor>
+    <description>SmartRedis is a small and very easy to use message queue based on Redis. SmartRedis uses Jedis as a Redis client.  SmartRedis in intended to be fast and reliable.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SmartRedis.jar" size="67444" download="eager" />
+    <jar href="commons-pool2-2.8.0.jar" size="129698" download="eager" />
+    <jar href="jedis-3.3.0.jar" size="678548" download="eager" />
+    <jar href="mysql-connector-java-8.0.21.jar" size="2397321" download="eager" />
+    <jar href="protobuf-java-3.11.4.jar" size="1660960" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="sample.Main"  name="SmartRedis" />
+  <update check="background"/>
+</jnlp>

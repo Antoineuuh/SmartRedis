@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="SmartRedis">
+    <output-path>$PROJECT_DIR$/out/artifacts/SmartRedis</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="SmartRedis is a small and very easy to use message queue based on Redis. SmartRedis uses Jedis as a Redis client.  SmartRedis in intended to be fast and reliable." />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="SmartRedis ▪ Made by @antoinisfrench" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="SmartRedis.jar">
+        <element id="module-output" name="SmartRedis" />
+        <element id="library" level="project" name="mysql:mysql-connector-java:8.0.21" />
+        <element id="file-copy" path="$PROJECT_DIR$/../../../../spigot/commons-pool2-2.8.0.jar" />
+        <element id="file-copy" path="$PROJECT_DIR$/../../../../spigot/jedis-3.3.0.jar" />
+      </element>
+    </root>
+  </artifact>
+</component>
