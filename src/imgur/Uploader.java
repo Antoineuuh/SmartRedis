@@ -9,9 +9,7 @@ public class Uploader {
     public static String UPLOAD_API_URL = "https://api.imgur.com/3/image";
     public static int MAX_UPLOAD_ATTEMPTS = 3;
 
-    private static String CLIENT_ID = "e68e193762fb624";
-
-    //9e1f66d3628fb8ee0e22b3047e74096001173013
+    private static String CLIENT_ID = "WRONG_CLIENT_ID_LOL";
 
     public static String UPLOAD(File file) {
         
