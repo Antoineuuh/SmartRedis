@@ -15,7 +15,7 @@ public class Consumer extends Thread {
     public Consumer(String CHANNELS){
 
         JEDIS = new Jedis("SG-SmartRedis-38687.servers.mongodirector.com");
-        JEDIS.auth("s1TuRnDy7ERzuejDSq7V9ZEPYkVrdSyt");
+        JEDIS.auth("WRONG_PASSWORD_LOL");
         this.CHANNELS = CHANNELS;
 
         System.out.println("Consumer is running: " + JEDIS.ping());
