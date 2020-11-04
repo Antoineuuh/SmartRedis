@@ -11,7 +11,7 @@ public class Publisher {
     public Publisher(){
 
         JEDIS = new Jedis("SG-SmartRedis-38687.servers.mongodirector.com");
-        JEDIS.auth("s1TuRnDy7ERzuejDSq7V9ZEPYkVrdSyt");
+        JEDIS.auth("WRONG_PASSWORD_LOL");
 
         System.out.println("Publisher is running: " + JEDIS.ping());
 
